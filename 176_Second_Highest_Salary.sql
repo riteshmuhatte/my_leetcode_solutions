@@ -59,3 +59,6 @@ SELECT IFNULL( (SELECT DISTINCT salary
                ), NULL
              )
 AS SecondHighestSalary
+
+/************** SQL Explained **************/
+IFNULL
